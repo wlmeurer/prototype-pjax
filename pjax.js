@@ -3,7 +3,7 @@
 // https://github.com/wlmeurer/prototype-pjax
 // based on Chris Wanstrath's jquery-ajax, prototypified
 
-Pjax = (function(){
+var Pjax = (function(){
   
   // When called on a link, fetches the href with ajax into the
   // container specified as the first parameter or with the data-pjax
