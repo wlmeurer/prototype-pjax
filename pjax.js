@@ -187,7 +187,7 @@ var Pjax = (function(){
 
     xhr = new Ajax.Request(url, options);
     
-    document.fire('pjax', Object.extend(options));
+    document.fire('pjax', options);
 
     return xhr;
   };
